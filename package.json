@@ -5,16 +5,18 @@
   "scripts": {
     "start": "node ./bin/www"
   },
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "dependencies": {
-    "body-parser": "^1.19.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.3",
-    "express": "^4.17.1",
-    "jade": "~1.11.0",
+    "express": "^4.22.1",
+    "helmet": "^8.1.0",
     "morgan": "^1.10.0",
     "pg": "~8.4",
-    "sequelize": "~6.3.5",
-    "sequelize-cli": "~6.2.0",
-    "serve-favicon": "~2.4.2"
+    "pug": "^3.0.4",
+    "sequelize": "^6.37.8",
+    "sequelize-cli": "^6.6.5"
   }
 }
